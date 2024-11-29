@@ -1,0 +1,138 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #eafaf1;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2a9d8f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar h1 {
+    font-size: 1.8rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f4a261;
+}
+
+/* Screen Section */
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Recipe Overview */
+.recipe-overview {
+    background: linear-gradient(145deg, #6dd3ad, #42a286);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    border-radius: 0 0 20px 20px;
+}
+
+.recipe-overview h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+}
+
+.recipe-overview p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Carousel */
+.carousel {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+.carousel__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.carousel__image--current {
+    transform: scale(1.1);
+}
+
+/* Recipe Details */
+.recipe-details-wrapper {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: -20px;
+}
+
+.ingredients-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #2a9d8f;
+}
+
+.categories {
+    list-style: none;
+    padding: 0;
+}
+
+.categories li {
+    margin: 1rem 0;
+}
+
+.categories a {
+    text-decoration: none;
+    color: #2a9d8f;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.categories a:hover {
+    color: #f4a261;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #264653;
+    color: white;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
